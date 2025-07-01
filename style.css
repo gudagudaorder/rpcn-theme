@@ -1,4 +1,4 @@
-/*
+t/*
 Black Supremacy
 [2019 Wikidot Theme]
 Created by Vizlox as the official RPC theme
@@ -833,7 +833,7 @@ div#container-wrap {
 }
  
 #search-top-box-form input[type=submit], #top-bar .search-button a {
-    transition: 0.1s, top 0s, left 0s;
+    transition: 0.1s, top 0s, right 0s;
     border: var(--search-button-border);
     border-radius: 0;
     padding: 2px 5px;
