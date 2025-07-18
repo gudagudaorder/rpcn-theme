@@ -1384,6 +1384,11 @@ div#container-wrap {
 #main-content .page-tags a[href^="/system:page-tags/tag/_"] {
     display: none;
 }
+
+/* Hide Page Watch Options (currently broken) */
+.page-watch-options, .do-not-notify {
+    display: none;
+}
  
 /* Pop-Up Text Boxes */
 .modal-body img {
