@@ -1749,6 +1749,24 @@ table.hazardTable {
     }
 }
 
+.specialBoxHazardCell .hazardTable {
+    padding-right: 4px !important;
+}
+.specialBoxHazardCell .hazardImage {
+    width: 4.6vw;
+    max-width: 35px;
+}
+@media (max-width: 520px) {
+  .specialBoxClassCell {
+    max-width: 95px;
+    width: 16vw !important;
+    background-size: 72%;
+  }
+  .specialBoxRPCCell {
+    font-size: 80%;
+  }
+}
+
 /* Wikidot Tables */
 table.wiki-content-table {
     width: 100%;
