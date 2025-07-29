@@ -1590,6 +1590,10 @@ blockquote, .blockquote {
     text-align: center;
     width: 300px;
 }
+
+.image-block .image-caption:empty {
+    display: none;
+}
  
 .image-block > p {
     margin: 0;
