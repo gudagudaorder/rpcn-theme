@@ -1,4 +1,4 @@
-/*
+i/*
 Black Supremacy
 [2019 Wikidot Theme]
 Created by Vizlox as the official RPC theme
@@ -510,15 +510,6 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 #side-bar div.menu-item p {
     margin: 0;
 }
- 
-#side-bar .menu-item a[href="/rpc-archive"]::after { /* will be removed soon */
-    font-size: 80%;
-    opacity: 0.7;
-    margin-left: 0.5em;
-    content: "(001-999)"
-}
-
-#side-bar .menu-item a[href="/rpc-archive"]:has(span)::after { content: none; } /* incremental introduction of next rule - will be removed soon */
  
 #side-bar .menu-item .subtitle {
     font-size: 80%;
@@ -2997,4 +2988,5 @@ Margin: 5px 0px;
 }
 
 }
+
 
