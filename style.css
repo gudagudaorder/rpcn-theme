@@ -1732,7 +1732,7 @@ padding: 0;
     width: 160px;
 }
 
-.hazardImage {
+.hazardImage, .manual-hazards img {
 margin-top: 1px;
 width: 35px;
 filter: invert(91%);
@@ -1741,12 +1741,12 @@ font-size: 80%;
 font-weight: bold;
 }
 
-table.hazardTable {
+table.hazardTable, .manual-hazards ul {
     padding-right: 5px!important;
 }
 
 @media (max-width: 768px) {
-    table.hazardTable {
+    table.hazardTable, .manual-hazards ul {
     padding-right: 20px!important;
     }
 }
@@ -1767,6 +1767,34 @@ table.hazardTable {
   .specialBoxRPCCell {
     font-size: 80%;
   }
+}
+
+.manual-hazards {
+    display: table;
+}
+.manual-hazards.top-spacing {
+    clear: both;
+}
+.manual-hazards > p:first-child {
+    display: table-cell;
+    font-weight: bold;
+    white-space: nowrap;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+    padding-right: 9px;
+}
+.manual-hazards ul {
+    list-style: none;
+    padding-left: 0;
+    display: table-cell;
+    user-select: none;
+}
+.manual-hazards li {
+    margin-left: 2px;
+}
+.manual-hazards img.blue {
+    filter: invert(91%) hue-rotate(150deg);
 }
 
 /* Wikidot Tables */
@@ -2465,12 +2493,12 @@ table.page-history tr td:nth-child(2)  {
 }
  
 /* Tooltip Localization */
-.tooltip, .tooltipblue, .hazardBlock {
+.tooltip, .tooltipblue, .hazardBlock, .manual-hazards li {
   position: relative;
   display: inline-block;
 }
  
-.tooltip .tooltiptext, .tooltipblue .tooltiptextblue, .hazardBlock .hazardText {
+.tooltip .tooltiptext, .tooltipblue .tooltiptextblue, .hazardBlock .hazardText, .manual-hazards li span {
   visibility: hidden;
   width: 120px;
   background-color: #333;
@@ -2485,13 +2513,16 @@ table.page-history tr td:nth-child(2)  {
   position: absolute;
   z-index: 1;
   pointer-events: none;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
 }
  
-.tooltip:hover .tooltiptext, .tooltipblue:hover .tooltiptextblue, .hazardBlock:hover .hazardText {
+.tooltip:hover .tooltiptext, .tooltipblue:hover .tooltiptextblue, .hazardBlock:hover .hazardText, .manual-hazards li:hover span {
   visibility: visible;
+  opacity: 1;
 }
  
-.tooltip .tooltiptext::after, .tooltipblue .tooltiptextblue::after, .hazardBlock .hazardText::after {
+.tooltip .tooltiptext::after, .tooltipblue .tooltiptextblue::after, .hazardBlock .hazardText::after, .manual-hazards li span::after {
   content: " ";
   position: absolute;
   top: 100%;
@@ -2501,21 +2532,12 @@ table.page-history tr td:nth-child(2)  {
   border-style: solid;
   border-color: #333 transparent transparent transparent;
 }
- 
-.tooltip .tooltiptext, .tooltipblue .tooltiptextblue, .hazardBlock .hazardText {
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
-}
- 
-.tooltip:hover .tooltiptext, .tooltipblue:hover .tooltiptextblue, .hazardBlock:hover .hazardText {
-  opacity: 1;
-}
 
-.tooltipblue .tooltiptextblue {
+.tooltipblue .tooltiptextblue, .manual-hazards img.blue + span {
   background-color: #2476db;
 }
 
-.tooltipblue .tooltiptextblue::after {
+.tooltipblue .tooltiptextblue::after, .manual-hazards img.blue + span::after {
   border-top-color: #2476db;
 }
 
@@ -2988,6 +3010,3 @@ Margin: 5px 0px;
 }
 
 }
-
-
-
