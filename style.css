@@ -1788,7 +1788,6 @@ table.hazardTable, .manual-hazards ul {
     list-style: none;
     padding-left: 0;
     display: table-cell;
-    user-select: none;
 }
 .manual-hazards li {
     margin-left: 2px;
@@ -3010,3 +3009,4 @@ Margin: 5px 0px;
 }
 
 }
+
