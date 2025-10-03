@@ -3095,8 +3095,8 @@ strong {
 /* 身份认证 */
 .post > .long > .head .info .avatarhover:after,
 #odialog-container .owindow > div.modal-body > img:first-child+h1:after {
-    margin-left: .72em;
-    padding: .20em;
+    margin-left: .6em;
+    padding: .15em;
     border-radius: 2px;
 }
  
@@ -3106,8 +3106,8 @@ strong {
     background: #3e6aa3;
 }
  
-.post > .long > .head .info:has(span.printuser a[onclick*="3626255"], span.printuser a[onclick*="8823966"], span.printuser a[onclick*="7752413"]) .avatarhover::after,
-#odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="3626255"], a[href*="8823966"], a[href*="7752413"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
+.post > .long > .head .info:has(span.printuser a[onclick*="3626255"], span.printuser a[onclick*="8823966"], span.printuser a[onclick*="7752413"], span.printuser a[onclick*="7457463"]) .avatarhover::after,
+#odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="3626255"], a[href*="8823966"], a[href*="7752413"], a[href*="7457463"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
     content: "版主";
     background: #2d4975;
 }
@@ -3122,4 +3122,5 @@ strong {
 #odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="4055881"], a[href*="3621630"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
     content: "顾问";
     background: #666;
+
 }
