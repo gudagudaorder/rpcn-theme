@@ -3122,5 +3122,5 @@ strong {
 #odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="4055881"], a[href*="3621630"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
     content: "顾问";
     background: #666;
-
 }
+
