@@ -3084,6 +3084,32 @@ strong {
     display: none !important;
 }
  
+/* 复数引用内容加入*/
+.block404, .blockalt {
+    background-color: #0D0F11;
+    border: solid 2px #666666;
+    width: 55%;
+    margin: 0 auto 2em;
+    text-align: center;
+    box-shadow: 0 0 0 rgba(0,0,0,.5);
+    padding: 0 15px;
+    color: #CCCCCC;
+}
+ 
+@media (max-width: 479px) {
+    .block404, .blockalt {
+        width: auto;
+        margin: 0 0 2em;
+    }
+}
+ 
+@media (min-width: 480px) and (max-width: 580px) {
+    .block404, .blockalt {
+        width: auto;
+        margin: 0 0.5em 2em;
+    }
+}
+ 
 /* 外部链接标识 */
 #page-content a[href]:not([href=""]):not([href*="rpc-wiki-cn.wikidot.com"]):not([href*="rpcsandboxcn.wikidot.com"]):not([href*="rpc-wiki-cn.wdfiles.com"]):not([href*="www.wikidot.com/user:info"]):not([href^="javascript"]):not([href^="#"]):not([href^="/"]):not(.rateContainer a)::after {
     content: "\f08e";
@@ -3123,4 +3149,3 @@ strong {
     content: "顾问";
     background: #666;
 }
-
