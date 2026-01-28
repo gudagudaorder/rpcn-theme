@@ -23,7 +23,7 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
  
 /* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css'); */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
  
 :root {
  
@@ -527,7 +527,7 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
     left: 15em;
 }
  
-#side-bar .menu-item a[href="https://qm.qq.com/q/nx5b51TO5a"]::before {
+#side-bar .menu-item a[href="/links"]::before {
     content: url('https://rpc-wiki-cn.wdfiles.com/local--files/nav%3Aside/qi.png');
     position: absolute;
     left: 15em;
@@ -3113,7 +3113,7 @@ strong {
 /* 外部链接标识 */
 #page-content a[href]:not([href=""]):not([href*="rpc-wiki-cn.wikidot.com"]):not([href*="rpcsandboxcn.wikidot.com"]):not([href*="rpc-wiki-cn.wdfiles.com"]):not([href*="www.wikidot.com/user:info"]):not([href^="javascript"]):not([href^="#"]):not([href^="/"]):not(.rateContainer a)::after {
     content: "\f08e";
-    font-family: 'Font Awesome 6 Free';
+    font-family: 'Font Awesome 7 Free';
     font-weight: 900;
     margin-left: .3em;
 }
@@ -3148,4 +3148,11 @@ strong {
 #odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="4055881"], a[href*="3621630"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
     content: "顾问";
     background: #666;
+}
+ 
+/* 移动端点侧栏总是点到链接烦死了 */
+@media (max-width: 768px) {
+    #header h1 a {
+        pointer-events: none;
+    }
 }
