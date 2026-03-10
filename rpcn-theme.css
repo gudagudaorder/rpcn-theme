@@ -90,7 +90,7 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 --button-current-background: var(--primary-background);
  
 /* Header Icon */
---header-icon: url(https://rpc-wiki-cn.wdfiles.com/local--files/component:theme/AuthorityLogoSVG.svg);
+--header-icon: url(/AuthorityLogoSVG.svg);
 --header-icon-adv: left 1.2em top 1rem no-repeat;
 --header-icon-size: auto calc(9.5rem - 2.125rem);
  
@@ -319,7 +319,7 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 --WT-button-hover-background: #548de0;
 --WT-button-hover-color: #000;
 --WT-button-current-background: #888;
---WT-header-icon: url(https://rpc-wiki-cn.wdfiles.com/local--files/component:theme/AuthorityLogoSVG.svg);
+--WT-header-icon: url(/AuthorityLogoSVG.svg);
 --WT-header-icon-adv: left 1.2em top 1rem no-repeat;
 --WT-header-icon-size: auto calc(9.5rem - 2.125rem);
 --WT-header-background: linear-gradient(#253677, #253575 20px, #21284b 132px, #1b213f 145px, #1b1b27 145px, #1f1f29 150px, #181822 166px, #0000004c 166px, #0000 179px);
@@ -516,19 +516,19 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 }
  
 #side-bar .menu-item a[href="https://discord.gg/Rdbxcj7yXe"]::before {
-    content: url('https://rpc-wiki-cn.wdfiles.com/local--files/nav%3Aside/di.png');
+    content: unset;/* url('https://rpc-wiki-cn.wdfiles.com/local--files/nav%3Aside/di.png'); */
     position: absolute;
     left: 15em;
 }
  
 #side-bar .menu-item a[href="https://space.bilibili.com/434962573"]::before {
-    content: url('https://rpc-wiki-cn.wdfiles.com/local--files/nav%3Aside/bi.png');
+    content: unset;/* url('https://rpc-wiki-cn.wdfiles.com/local--files/nav%3Aside/bi.png'); */
     position: absolute;
     left: 15em;
 }
  
 #side-bar .menu-item a[href="/links"]::before {
-    content: url('https://rpc-wiki-cn.wdfiles.com/local--files/nav%3Aside/qi.png');
+    content: unset;/* url('https://rpc-wiki-cn.wdfiles.com/local--files/nav%3Aside/qi.png'); */
     position: absolute;
     left: 15em;
 }
@@ -3156,4 +3156,5 @@ strong {
         pointer-events: none;
     }
 }
+
 
