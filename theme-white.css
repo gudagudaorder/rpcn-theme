@@ -323,7 +323,6 @@
 }
 
 .whiteThemeInvert img,
-.block404 img, /* 各分类_template与404页的图像 */
 .mst-profile img[src*="WhiteHeader.png"], /* Image at the top of MST profiles */
 .site-doc img[src*="site-header-white.png"] /* Image at the top of site docs. */
 {
