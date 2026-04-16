@@ -1,0 +1,122 @@
+.open-themes.themes-black {
+    display: none;
+}
+
+.open-themes.themes-white {
+    display: block;
+}
+
+.open-themes a {
+    border: var(--BT-open-themes-border);
+    background: var(--BT-open-themes-background)!important;
+    color: var(--BT-open-themes-color)!important;
+}
+
+.open-themes a:hover {
+    color: var(--BT-open-themes-hover-color)!important;
+    border: var(--BT-open-themes-hover-border);
+}
+
+.content-panel .content-panel, .yui-content .content-panel, .body-panel .content-panel,
+.content-panel blockquote, .yui-content blockquote, .body-panel blockquote,
+.content-panel .blockquote, .yui-content .blockquote, .body-panel .blockquote,
+.blockquote blockquote, .blockquote .blockquote, blockquote .blockquote, blockquote blockquote,
+.content-panel .yui-navset, .yui-content .yui-navset, .body-panel .yui-navset {
+    border: var(--nested-content-border);
+}
+
+.content-panel .tableStyle, .yui-content .tableStyle, .body-panel .tableStyle {
+    border: var(--nested-star-rating-border);  
+}
+
+/* Checkboxes and Radio Buttons */
+.checkbox input,
+#rev-type-title,
+#rev-type-all,
+#rev-type-source,
+#rev-type-move,
+#rev-type-tags,
+#rev-type-meta,
+#rev-type-files,
+.radio,
+#\31 46126552,
+#rev-type-new,
+#rev-category,
+#rev-perpage,
+#action-area > .form input,
+.page-history td input {
+    filter: invert(97%) hue-rotate(180deg);
+}
+
+.whiteThemeOnly {
+    display: none!important;
+}
+
+/* Scrollbar */
+
+body::-webkit-scrollbar, #edit-page-textarea::-webkit-scrollbar, #np-text::-webkit-scrollbar {
+  width: 13px;
+}
+
+body::-webkit-scrollbar:horizontal, #edit-page-textarea::-webkit-scrollbar:horizontal, #np-text::-webkit-scrollbar:horizontal {
+  height: 13px;
+}
+
+body::-webkit-scrollbar-track, #edit-page-textarea::-webkit-scrollbar-track, #np-text::-webkit-scrollbar-track,
+body::-webkit-scrollbar-corner, #edot-page-textarea::-webkit-scrollbar-corner, #np-text::-webkit-scrollbar-track {
+  background: var(--BT-scrollbar-background);
+}
+
+body::-webkit-scrollbar-thumb, #edit-page-textarea::-webkit-scrollbar-thumb, #np-text::-webkit-scrollbar-thumb {
+  background: var(--BT-scrollbar-thumb-background);
+}
+
+body::-webkit-scrollbar-thumb:hover, #edit-page-textarea::-webkit-scrollbar-thumb:hover, #np-text::-webkit-scrollbar-thumb:hover {
+  background: var(--BT-scrollbar-thumb-hover-background);
+}
+
+body::-webkit-resizer, #edit-page-textarea::-webkit-resizer, #np-text::-webkit-resizer {
+    background: var(--BT-resizer-background);
+}
+
+.sideTabview .yui-content div::-webkit-scrollbar {
+    width: 13px;
+}
+
+.sideTabview .yui-content div::-webkit-scrollbar:horizontal {
+    height: 13px;
+}
+
+.sideTabview .yui-content div::-webkit-scrollbar-track,
+.sideTabview .yui-content div::-webkit-scrollbar-corner {
+    background: var(--tabview-side-scrollbar-background);
+}
+
+.sideTabview .yui-content div::-webkit-scrollbar-thumb {
+    background: var(--tabview-side-scrollbar-thumb-background);
+}
+
+.sideTabview .yui-content div::-webkit-scrollbar-thumb:hover {
+    background: var(--tabview-side-scrollbar-thumb-hover-background);
+}
+
+:root {
+    --BT-open-themes-border: none;
+    --BT-open-themes-background: unset;
+    --BT-open-themes-color: transparent;
+    --BT-open-themes-hover-color: transparent;
+    --BT-open-themes-hover-border: none;
+}
+
+.themes-white a {
+    background: url(https://rpc-wiki-cn.wikidot.com/local--files/component:theme/light-off.svg) no-repeat!important;
+    height: calc(1em + 4px);
+    width: calc(1em + 4px);
+    background-size: contain!important;
+}
+
+.themes-white a:hover {
+    box-shadow: 0 0 8px #F9F9F9;
+    background: url(https://rpc-wiki-cn.wikidot.com/local--files/component:theme/light-on.svg) no-repeat !important;
+    background-size: contain!important;
+}
