@@ -2299,7 +2299,7 @@ input#page-tags-input.text {
 }
  
 .forum-start-box .head td:nth-child(1)::after {
-    font-size: 0.9em;
+    font-size: 0.8rem;
     content: "分类名称"
 }
  
@@ -2308,7 +2308,7 @@ input#page-tags-input.text {
 }
  
 .forum-start-box .head td:nth-child(4)::after {
-    font-size: 0.9em;
+    font-size: 0.8rem;
     content: "最新回复"
 }
  
@@ -2322,7 +2322,7 @@ input#page-tags-input.text {
 }
  
 .forum-category-box .head td:nth-child(1)::after {
-    font-size: 0.9em;
+    font-size: 0.8rem;
     content: "讨论串名称";
 }
  
@@ -2331,7 +2331,7 @@ input#page-tags-input.text {
 }
  
 .forum-category-box .head td:nth-child(2)::after {
-    font-size: 0.9em;
+    font-size: 0.8rem;
     content: "发布者";
 }
  
@@ -2340,7 +2340,7 @@ input#page-tags-input.text {
 }
  
 .forum-category-box .head td:nth-child(4)::after {
-    font-size: 0.9em;
+    font-size: 0.8rem;
     content: "最近的回复";
 }
  
