@@ -17,12 +17,10 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
  
 @charset "utf-8";
  
-@import url('https://fonts.googleapis.com/css?family=Exo+2');
-@import url('https://fonts.googleapis.com/css?family=Michroma');
-@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
-@import url('https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
- 
-/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css'); */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
  
 :root {
@@ -500,7 +498,7 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
     display: block;
     margin: 0 calc(-1em - 1px) 0 -0.5em;
     padding: 0.4em 1em 0.4em 0.5em;
-    font-size: 12.8px;
+    font-size: 1em;
     color: var(--sidebar-color);
     width: 220px;
 }
@@ -1472,14 +1470,14 @@ sup {
 body {
     background: var(--body-background);
     color: var(--text-color);
-    font-size: 0.80em;
+    font-size: 0.9em;
 }
  
 #content-wrap {
     position: relative;
     margin: 2em auto 0;
-    max-width: 1040px;
-    min-height:1500px;
+    max-width: 67.5rem;
+    min-height: 93.75rem;
     height: auto;
 }
  
@@ -2302,7 +2300,7 @@ input#page-tags-input.text {
 }
  
 .forum-start-box .head td:nth-child(1)::after {
-    font-size: 11px;
+    font-size: 0.9em;
     content: "分类名称"
 }
  
@@ -2311,7 +2309,7 @@ input#page-tags-input.text {
 }
  
 .forum-start-box .head td:nth-child(4)::after {
-    font-size: 11px;
+    font-size: 0.9em;
     content: "最新回复"
 }
  
@@ -2325,7 +2323,7 @@ input#page-tags-input.text {
 }
  
 .forum-category-box .head td:nth-child(1)::after {
-    font-size: 11px;
+    font-size: 0.9em;
     content: "讨论串名称";
 }
  
@@ -2334,7 +2332,7 @@ input#page-tags-input.text {
 }
  
 .forum-category-box .head td:nth-child(2)::after {
-    font-size: 11px;
+    font-size: 0.9em;
     content: "发布者";
 }
  
@@ -2343,7 +2341,7 @@ input#page-tags-input.text {
 }
  
 .forum-category-box .head td:nth-child(4)::after {
-    font-size: 11px;
+    font-size: 0.9em;
     content: "最近的回复";
 }
  
@@ -2765,7 +2763,7 @@ table.page-history tr td:nth-child(2)  {
     }
  
     #page-content {
-        font-size: 0.9em;
+        font-size: 1em;
     }
  
     #main-content {
@@ -3156,6 +3154,8 @@ strong {
         pointer-events: none;
     }
 }
-
-
-
+ 
+/* 评分模块修复 */
+.page-rate-widget-start {
+    width: auto !important;
+}
