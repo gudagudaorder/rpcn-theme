@@ -498,7 +498,7 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
     display: block;
     margin: 0 calc(-1em - 1px) 0 -0.5em;
     padding: 0.4em 1em 0.4em 0.5em;
-    font-size: 1em;
+    font-size: 0.9rem;
     color: var(--sidebar-color);
     width: 220px;
 }
@@ -779,8 +779,7 @@ div#container-wrap {
     border-left: solid 1px rgba(64,64,64,.1);
     border-right: solid 1px rgba(64,64,64,.1);
     text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     line-height: 1px;
     max-height: 1px;
     overflow: hidden;
