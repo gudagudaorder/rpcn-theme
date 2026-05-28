@@ -945,7 +945,7 @@ div#container-wrap {
     margin: 0 0.16em 0 0;
 }
 
-.sideTabview .yui-navset, .sideTabview .yui-navset * {
+.sideTabview .yui-navset, .sideTabview .yui-content > * {
     box-sizing: border-box!important;
 }
 
