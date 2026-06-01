@@ -1,3 +1,10 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
+
 /*
 Black Supremacy
 [2020 Wikidot Theme]
@@ -14,37 +21,31 @@ Header Image created by Logangreenjeans
 
 The code for the sideTabview was adapted from code created by JimmyBoyHaha
 */
-@charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
 
 :root {
- 
+
 /* PALLET SHEET */
- 
+
 --basic-border: 1px solid #666;
 --basic-border-color: #666;
 --dashed-border: 1px dashed #666;
 --thick-border: 2px solid #666;
- 
+
 --element-border-radius: 2px;
- 
+
 --primary-background: #1d2022;
 --secondary-background: rgba(0,0,0,0.15);
 --background-3: #191b1d;
 --background-4: #1f2125;
- 
+
 --content-bar-background: #24272a;
- 
+
 --primary-text-color: #3e6aa3;
- 
+
 --nav-hover-background: #2d4975;
- 
+
 /* BASE COLORS */
- 
+
 /* General Elements */
 --text-color: #c0c0c0;
 --unmargined-color: var(--primary-text-color);
@@ -59,14 +60,14 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 --content-box-shadow: 1px 1px 1px 1px var(--content-box-shadow-color);
 --show-changes-del-background: rgba(255,123,123,0.47);
 --show-changes-ins-background: rgba(140,255,129,0.47);
- 
+
 /* Body */
 --body-background: #272a31;
- 
+
 /* Footer */
 --footer-background: var(--primary-background);
 --footer-color: var(--text-color);
- 
+
 /* Page Content */
 --page-background: none;
 --page-padding: none;
