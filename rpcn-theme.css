@@ -992,11 +992,7 @@ div#container-wrap {
 .sideTabview .yui-nav::-webkit-scrollbar {
     width: 13px;
 }
- 
-.sideTabview .yui-nav::-webkit-scrollbar:horizontal {
-    height: 13px;
-}
- 
+
 .sideTabview .yui-nav::-webkit-scrollbar-track,
 .sideTabview .yui-nav::-webkit-scrollbar-corner {
     background: var(--tabview-side-scrollbar-background);
@@ -2651,37 +2647,7 @@ table.page-history tr td:nth-child(2)  {
 .open-themes p {
     margin: 0;
 }
- 
-/* Viewport */
-@viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
-/* Internet Explorer Viewport */
-@-ms-viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
-/* Opera Viewport */
-@-o-viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
-/* Google Chrome Viewport */
-@-webkit-viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
-/* FireFox Viewport */
-@-moz-viewport {
-    width: device-width;
-    zoom: 1.0;
-}
- 
+
 /* Mobile Compatibility */
 @media (max-width: 768px) {
  
