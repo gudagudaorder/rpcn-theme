@@ -58,10 +58,6 @@ body::-webkit-scrollbar, #edit-page-textarea::-webkit-scrollbar, #np-text::-webk
   width: 13px;
 }
 
-body::-webkit-scrollbar:horizontal, #edit-page-textarea::-webkit-scrollbar:horizontal, #np-text::-webkit-scrollbar:horizontal {
-  height: 13px;
-}
-
 body::-webkit-scrollbar-track, #edit-page-textarea::-webkit-scrollbar-track, #np-text::-webkit-scrollbar-track,
 body::-webkit-scrollbar-corner, #edot-page-textarea::-webkit-scrollbar-corner, #np-text::-webkit-scrollbar-track {
   background: var(--BT-scrollbar-background);
@@ -81,10 +77,6 @@ body::-webkit-resizer, #edit-page-textarea::-webkit-resizer, #np-text::-webkit-r
 
 .sideTabview .yui-content div::-webkit-scrollbar {
     width: 13px;
-}
-
-.sideTabview .yui-content div::-webkit-scrollbar:horizontal {
-    height: 13px;
 }
 
 .sideTabview .yui-content div::-webkit-scrollbar-track,
