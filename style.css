@@ -2589,7 +2589,8 @@ table.page-history tr td:nth-child(2)  {
     transform: scale(1.5);
     transition: .05s;
     transition-delay: .2s;
-    z-index: 2;
+    position: relative;
+    z-index: 21;
 }
  
 .mobileOnly {
