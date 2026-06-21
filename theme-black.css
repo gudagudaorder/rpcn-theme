@@ -55,7 +55,8 @@
 /* Scrollbar */
 
 body::-webkit-scrollbar, #edit-page-textarea::-webkit-scrollbar, #np-text::-webkit-scrollbar {
-  width: 13px;
+    width: 13px;
+    height: 13px;
 }
 
 body::-webkit-scrollbar-track, #edit-page-textarea::-webkit-scrollbar-track, #np-text::-webkit-scrollbar-track,
@@ -77,6 +78,7 @@ body::-webkit-resizer, #edit-page-textarea::-webkit-resizer, #np-text::-webkit-r
 
 .sideTabview .yui-content div::-webkit-scrollbar {
     width: 13px;
+    height: 13px;
 }
 
 .sideTabview .yui-content div::-webkit-scrollbar-track,
