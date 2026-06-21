@@ -945,7 +945,7 @@ div#container-wrap {
     margin: 0 0.16em 0 0;
 }
 
-.sideTabview .yui-navset, .sideTabview .yui-navset * {
+.sideTabview .yui-navset, .sideTabview .yui-content > * {
     box-sizing: border-box!important;
 }
 
@@ -1171,7 +1171,7 @@ div#container-wrap {
     min-height: 1200px;
     background: var(--page-background);
     padding: var(--page-padding);
-    Border: var(--page-border);
+    border: var(--page-border);
     border-radius: var(--page-border-radius);
 }
 
@@ -1771,6 +1771,7 @@ table.hazardTable, .manual-hazards ul {
 
 .manual-hazards {
     display: table;
+    border-collapse: collapse;
 }
 .manual-hazards.top-spacing {
     clear: both;
@@ -2173,7 +2174,7 @@ span.error-inline em::after {
 .forum-thread-box .description-block, .well {
     padding: .5em 1em;
     border-radius: var(--forum-thread-border-radius)!important;
-    Border: var(--forum-thread-border)!important;
+    border: var(--forum-thread-border)!important;
     background: var(--forum-thread-background)!important;
     color: var(--text-color);
     box-shadow: var(--forum-thread-box-shadow);
@@ -2186,6 +2187,8 @@ span.error-inline em::after {
     box-shadow: inset 2px 3px 6px rgba(0,0,0,.15);
     border-radius: 5px 5px 0 0;
 }
+
+.thread-container .post img { max-width: 100%; }
  
 .folded .short {
     background: rgba(0,0,0,0.12)!important;
@@ -2586,7 +2589,8 @@ table.page-history tr td:nth-child(2)  {
     transform: scale(1.5);
     transition: .05s;
     transition-delay: .2s;
-    z-index: 2;
+    position: relative;
+    z-index: 21;
 }
  
 .mobileOnly {
@@ -2643,6 +2647,9 @@ table.page-history tr td:nth-child(2)  {
 .open-themes p {
 margin: 0;
 }
+
+/* Hide ListResize Header */
+#page-content > p:first-child > .listresize { display: none; }
 
 /* Hide Banned Users */
 .printuser a[href*="the-fozz-2"]:nth-child(1) {
@@ -3009,4 +3016,6 @@ Margin: 5px 0px;
 }
 
 }
+
+
 
