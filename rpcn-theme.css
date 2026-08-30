@@ -1905,10 +1905,8 @@ table.wiki-content-table td {
 }
 
 .cellStyle {
-    display: inline-block;
     padding: 1px 4px 0px 4px;
     background: var(--star-rating-cell-background);
-    height: 20px;
     border: none;
 }
 
@@ -3069,14 +3067,14 @@ table.page-history tr td:nth-child(2)  {
     border-radius: 2px;
 }
 
-.post > .long > .head .info:has(span.printuser a[onclick*="5197199"], span.printuser a[onclick*="5230157"]) .avatarhover::after,
-#odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="5197199"], a[href*="5230157"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
+.post > .long > .head .info:has(span.printuser a[onclick*="5197199"], span.printuser a[onclick*="5230157"], span.printuser a[onclick*="7457463"]) .avatarhover::after,
+#odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="5197199"], a[href*="5230157"], a[href*="7457463"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
     content: "管理员";
     background: #3e6aa3;
 }
 
-.post > .long > .head .info:has(span.printuser a[onclick*="3626255"], span.printuser a[onclick*="8823966"], span.printuser a[onclick*="7752413"], span.printuser a[onclick*="7457463"]) .avatarhover::after,
-#odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="3626255"], a[href*="8823966"], a[href*="7752413"], a[href*="7457463"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
+.post > .long > .head .info:has(span.printuser a[onclick*="3626255"], span.printuser a[onclick*="8823966"], span.printuser a[onclick*="7752413"]) .avatarhover::after,
+#odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="3626255"], a[href*="8823966"], a[href*="7752413"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
     content: "版主";
     background: #2d4975;
 }
