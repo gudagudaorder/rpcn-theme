@@ -541,7 +541,7 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 }
 
 li, p {
-    line-height: 141%;
+    line-height: 1.41;
     word-wrap: break-word;
 }
 
@@ -652,7 +652,7 @@ div#container-wrap {
     top: -61px;
     right: -1px;
     padding-right: 6px;
-    line-height: 1.4em;
+    line-height: 1.4;
     user-select: none;
 }
 
@@ -750,7 +750,6 @@ div#container-wrap {
 
 #top-bar {
     position: absolute;
-    z-index: 50;
     top: 140px;
     height: 21px;
     line-height: 18px;
@@ -806,7 +805,7 @@ div#container-wrap {
 #top-bar ul li:hover ul li a {
     border-width: 0;
     width: 150px;
-    line-height: 160%;
+    line-height: 1.6;
     height: auto;
     max-height: none;
     padding-top: 0;
@@ -1154,7 +1153,7 @@ div#container-wrap {
 
 .unmargined > p {
     margin: 0;
-    line-height: 100%;
+    line-height: 1;
     color: var(--unmargined-color);
 }
 
@@ -2831,7 +2830,7 @@ table.page-history tr td:nth-child(2)  {
         font-weight: 700;
         width: 30px;
         height: 30px;
-        line-height: 0.9em;
+        line-height: 0.9;
         text-align: center;
         border: var(--sidebar-mobile-open-menu-border);
         background: var(--sidebar-mobile-open-menu-background) !important;
