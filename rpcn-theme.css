@@ -3066,8 +3066,14 @@ table.page-history tr td:nth-child(2)  {
     border-radius: 2px;
 }
 
-.post > .long > .head .info:has(span.printuser a[onclick*="5197199"], span.printuser a[onclick*="5230157"], span.printuser a[onclick*="7457463"]) .avatarhover::after,
-#odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="5197199"], a[href*="5230157"], a[href*="7457463"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
+.post > .long > .head .info:has(span.printuser a[onclick*="5197199"]) .avatarhover::after,
+#odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="5197199"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
+    content: "主管理员";
+    background: #3e6aa3;
+}
+ 
+.post > .long > .head .info:has(span.printuser a[onclick*="5230157"], span.printuser a[onclick*="7457463"]) .avatarhover::after,
+#odialog-container .owindow:has(a[onclick*="flagUser" i]):has(a[href*="5230157"], a[href*="7457463"]) > div.modal-body > img[style*="padding: 2px 8px;"]:first-child+h1:after {
     content: "管理员";
     background: #3e6aa3;
 }
