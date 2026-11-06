@@ -2623,7 +2623,7 @@ table.page-history tr td:nth-child(2)  {
 }
 
 /* 使ListResize不止在第一个p隐藏 */
-#page-content > p:nth-child(1) > .listresize, #page-content > p:nth-child(4) > .listresize, #page-content > p:nth-child(5) > .listresize {
+#page-content > p:first-child > .listresize, #page-content > p:nth-child(3) > .listresize, #page-content > p:nth-child(4) > .listresize, #page-content > p:nth-child(5) > .listresize {
     display: none;
 }
 
